@@ -6,7 +6,6 @@ setTimeout(function (){
 			var flashvars_val=flashvars.val();
 			flashvars.val(flashvars_val.replace('Status=true','Status=false'));
 			$('#douyu_room_flash_proxy').css('display', 'none');
-			document.getElementById("js-shie-gift").className = "shie shie-switch-open"
 		},1000)
 
 //抢鱼丸功能默认开启
