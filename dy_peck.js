@@ -2,10 +2,10 @@ var ywtit=$('#ywtit');
 
 //暂停视频
 setTimeout(function (){
-			var flashvars=$('#douyu_room_flash_proxy param[name="flashvars"]');
+			var flashvars=$('#js-room-video param[name="flashvars"]');
 			var flashvars_val=flashvars.val();
 			flashvars.val(flashvars_val.replace('Status=true','Status=false'));
-			$('#douyu_room_flash_proxy').css('display', 'none');
+			$('#js-room-video').css('display', 'none');
 		},10000)
 
 //抢鱼丸功能默认开启
