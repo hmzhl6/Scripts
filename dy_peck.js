@@ -24,8 +24,7 @@ function openPeck(){
 	    if ($(".peck-cdn").text() == "领取" && !$(".peck-cdn").is(":hidden")) {
 	        $(".peck-cdn,#right_col_peck").click();
 	    } else if ($(".peck-cdn").is(":hidden")) {
-			clearInterval(_Timer);
-			$("#right_col_peck .peck-cdn").bind('DOMSubtreeModified',peck)
+		window.close();
 	    }
     },500)
 }
