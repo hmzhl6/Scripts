@@ -5,7 +5,6 @@ setTimeout(function (){
 			var flashvars=$('#js-room-video param[name="flashvars"]');
 			var flashvars_val=flashvars.val();
 			flashvars.val(flashvars_val.replace('Status=true','Status=false'));
-			$('#js-room-video').css('display', 'none');
 		},20000)
 
 //抢鱼丸功能默认开启
