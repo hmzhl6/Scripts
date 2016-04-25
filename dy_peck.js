@@ -6,15 +6,7 @@ setTimeout(function (){
 			var flashvars_val=flashvars.val();
 			flashvars.val(flashvars_val.replace('Status=true','Status=false'));
 			$('#douyu_room_flash_proxy').css('display', 'none');
-			setTimeout(function (){
-				$('#douyu_room_flash_proxy').css('display', 'block');
-				setInterval(function (){
-					thisMovie("#douyu_room_flash_proxy").js_barrage(false);
-					//礼物屏蔽
-					thisMovie("#douyu_room_flash_proxy").js_effectVisible(0)
-				},500)
-			},500)
-			
+			document.getElementById("js-shie-gift").className = "shie shie-switch-open"
 		},1000)
 
 //抢鱼丸功能默认开启
