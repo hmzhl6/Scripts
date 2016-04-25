@@ -6,7 +6,7 @@ setTimeout(function (){
 			var flashvars_val=flashvars.val();
 			flashvars.val(flashvars_val.replace('Status=true','Status=false'));
 			$('#js-room-video').css('display', 'none');
-		},10000)
+		},20000)
 
 //抢鱼丸功能默认开启
 $("#right_col_peck .peck-cdn").bind('DOMSubtreeModified',peck)
