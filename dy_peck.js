@@ -6,7 +6,7 @@ setTimeout(function (){
 			var flashvars_val=flashvars.val();
 			flashvars.val(flashvars_val.replace('Status=true','Status=false'));
 			$('#douyu_room_flash_proxy').css('display', 'none');
-		},1000)
+		},15000)
 
 //抢鱼丸功能默认开启
 $("#right_col_peck .peck-cdn").bind('DOMSubtreeModified',peck)
