@@ -1,5 +1,3 @@
-var ywtit=$('#ywtit');
-
 //暂停视频
 setTimeout(function (){
 			var flashvars=$('#js-room-video param[name="flashvars"]');
